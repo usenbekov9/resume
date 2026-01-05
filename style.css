@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  margin: 0;
+  padding: 40px;
+}
+
+.resume {
+  background: #fff;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  color: #555;
+}
+
+.contacts p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* CONTENT */
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+section h2 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* JOB */
+.job {
+  margin-bottom: 25px;
+}
+
+.job h3 {
+  margin: 0;
+}
+
+.job span,
+.job small {
+  display: block;
+  color: #666;
+}
+
+.job ul {
+  padding-left: 18px;
+}
+
+.stack {
+  font-size: 13px;
+  color: #333;
+}
+
+/* SKILLS */
+.skills li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+/* EDUCATION */
+.edu {
+  margin-bottom: 20px;
+}
+
+.edu ul {
+  padding-left: 18px;
+}
